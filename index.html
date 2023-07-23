@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>1111111111</div>
+    <div>2222222222</div>
+</body>
+<style>
+    body {
+        display: flex;
+    }
+
+    body :nth-child(1) {
+        width: 100px;
+        height: 100px;
+        background-color: aqua;
+        display: flex;
+        z-index: 2;
+    }
+
+    body :nth-child(2) {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        margin-left: -50px;
+        display: flex;
+    }
+</style>
+
+</html>
